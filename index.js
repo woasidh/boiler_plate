@@ -6,6 +6,8 @@ const {User} = require('./models/User')
 const key = require('./config/key')
 const port = 5000
 
+//for git test
+
 mongoose.connect(key.mongoURI, {
     useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: true
 })
